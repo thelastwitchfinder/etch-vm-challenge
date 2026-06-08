@@ -1,0 +1,50 @@
+feature,category,description
+aging_quadratic,Chamber,Quadratic aging proxy ((runs_in_pm_cycle)^2 / pm_interval^2)
+ar_total_ratio,Cross,Ar flow / total flow ratio
+cf4_chf3_ratio,Cross,CF4 / CHF3 flow ratio
+flow_Ar_mean,Process,Ar gas flow mean (sccm)
+flow_Ar_std,Process,Ar gas flow std
+flow_CF4_mean,Process,CF4 gas flow mean (sccm)
+flow_CF4_std,Process,CF4 gas flow std
+flow_CHF3_mean,Process,CHF3 gas flow mean (sccm)
+flow_CHF3_std,Process,CHF3 gas flow std
+is_chamber_2,Chamber,"Chamber identity (0=Chamber_1, 1=Chamber_2)"
+oes_Ar_656_mean,OES,H 656.3nm emission mean intensity (labeled as Ar_656 in sensor)
+oes_Ar_656_std,OES,H 656.3nm emission intensity std
+oes_Ar_686_mean,OES,F 685.6nm emission mean intensity (labeled as Ar_686 in sensor)
+oes_Ar_686_std,OES,F 685.6nm emission intensity std
+oes_Ar_line_ratio,OES_Ratio,Ar 750nm / Ar 811nm ratio
+oes_F_252_mean,OES,SiF 251.6nm emission mean intensity
+oes_F_252_std,OES,SiF 251.6nm emission intensity std
+oes_F_486_mean,OES,H 486.1nm emission mean intensity
+oes_F_486_std,OES,H 486.1nm emission intensity std
+oes_F_Ar_ratio,OES_Ratio,F 704nm / Ar 750nm ratio (etchant proxy)
+oes_F_line_ratio,OES_Ratio,F 686nm / F 704nm ratio
+oes_H_704_mean,OES,F 703.7nm emission mean intensity (labeled as H_704 in sensor)
+oes_H_704_std,OES,F 703.7nm emission intensity std
+oes_H_F_ratio,OES_Ratio,H 486nm / F 704nm ratio (polymer indicator)
+oes_H_alpha_750_mean,OES,Ar 750.4nm emission mean intensity (labeled as H_alpha_750 in sensor)
+oes_H_alpha_750_std,OES,Ar 750.4nm emission intensity std
+oes_SiF_812_mean,OES,Ar 811.5nm emission mean intensity (labeled as SiF_812 in sensor)
+oes_SiF_812_std,OES,Ar 811.5nm emission intensity std
+oes_SiF_F_ratio,OES_Ratio,SiF 252nm / F 704nm ratio (etch product)
+oes_SiF_intensity,OES_Ratio,SiF 251.6nm raw intensity
+power_per_flow,Cross,RF power / total gas flow
+power_pressure_product,Cross,RF power x pressure interaction
+power_squared,Cross,Normalized power squared
+pressure_flow_product,Cross,Pressure x total flow interaction
+pressure_mean,Process,Chamber pressure mean (mTorr)
+pressure_std,Process,Chamber pressure std
+rf_I_mean,RF,RF current mean
+rf_I_std,RF,RF current std
+rf_V_mean,RF,RF voltage mean
+rf_V_slope,RF,RF voltage linear slope over time
+rf_V_std,RF,RF voltage std
+rf_Z_estimate,RF,Estimated impedance V/I
+rf_phase_mean,RF,RF phase mean (rad)
+rf_phase_slope,RF,RF phase linear slope over time
+rf_phase_std,RF,RF phase std
+runs_in_pm_cycle,Chamber,Sequential run count within current PM cycle
+temp_mean,Process,Wafer temperature mean (deg C)
+temp_std,Process,Wafer temperature std
+wafer_slot,Chamber,Wafer position within lot (0-24)
